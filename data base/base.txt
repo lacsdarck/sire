@@ -1,0 +1,224 @@
+-- phpMyAdmin SQL Dump
+-- version 3.3.9
+-- 
+http://www.phpmyadmin.net
+--
+-- 
+Servidor: localhost
+-- Tiempo de generación: 08-10-2011 a las 05:58:13
+--
+ Versión del servidor: 5.5.8
+-- 
+Versión de PHP: 5.3.5
+
+
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Base de datos: `guarderia`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `actividad`
+--
+
+CREATE TABLE IF NOT EXISTS `actividad` (
+  `idactiva` int(6) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(30) NOT NULL,
+  `fecha` date NOT NULL,
+  `descripcion` varchar(100) NOT NULL,
+  `docentes_iddocente` int(2) NOT NULL,
+  `docentes_grupo_idgrup` int(2) NOT NULL,
+  PRIMARY KEY (`idactiva`,`docentes_iddocente`,`docentes_grupo_idgrup`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='secuencia de actividades a llevar a cabo para realizar la evaluacion del alumno.' AUTO_INCREMENT=1 ;
+
+--
+-- Volcar la base de datos para la tabla `actividad`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `administrador`
+--
+
+CREATE TABLE IF NOT EXISTS `administrador` (
+  `idadmin` int(3) NOT NULL AUTO_INCREMENT,
+  `usuario` varchar(30) NOT NULL,
+  `pasword` varchar(100) NOT NULL,
+  PRIMARY KEY (`idadmin`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Volcar la base de datos para la tabla `administrador`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `alumnos`
+--
+
+CREATE TABLE IF NOT EXISTS `alumnos` (
+  `idalumno` int(10) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(30) NOT NULL,
+  `apellido_paterno` varchar(45) NOT NULL,
+  `apellido_materno` varchar(45) NOT NULL,
+  `curp` varchar(23) NOT NULL,
+  `sexo` varchar(10) NOT NULL,
+  `domicilio` varchar(30) NOT NULL,
+  `colonia` varchar(30) NOT NULL,
+  `codigop` varchar(6) NOT NULL,
+  `localidad` varchar(30) NOT NULL,
+  `municipio` varchar(30) NOT NULL,
+  `idgrup` int(2) NOT NULL,
+  `tutor_idtutor` int(10) NOT NULL,
+  PRIMARY KEY (`idalumno`,`idgrup`,`tutor_idtutor`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Volcar la base de datos para la tabla `alumnos`
+--
+
+INSERT INTO `alumnos` (`idalumno`, `nombre`, `apellido_paterno`, `apellido_materno`, `curp`, `sexo`, `domicilio`, `colonia`, `codigop`, `localidad`, `municipio`, `idgrup`, `tutor_idtutor`) VALUES
+(1, 'fabiola ', 'alcocer', 'juarez', 'alksdkasd', '1', 'asd', '', '', '', '', 1, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `avisos`
+--
+
+CREATE TABLE IF NOT EXISTS `avisos` (
+  `folio` int(8) NOT NULL AUTO_INCREMENT,
+  `asunto` varchar(100) DEFAULT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `descripcion` text,
+  PRIMARY KEY (`folio`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Volcar la base de datos para la tabla `avisos`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `docentes`
+--
+
+CREATE TABLE IF NOT EXISTS `docentes` (
+  `iddocente` int(2) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(30) NOT NULL,
+  `apellido_paterno` varchar(30) NOT NULL,
+  `apellido_materno` varchar(30) NOT NULL,
+  `rfc` varchar(30) NOT NULL,
+  `curp` varchar(32) DEFAULT NULL,
+  `clavepresu` varchar(40) DEFAULT NULL,
+  `fechaingreso` date DEFAULT NULL,
+  `preparacion` varchar(40) DEFAULT NULL,
+  `domicilio` varchar(30) DEFAULT NULL,
+  `colonia` varchar(30) DEFAULT NULL,
+  `localidad` varchar(30) DEFAULT NULL,
+  `municipio` varchar(30) DEFAULT NULL,
+  `cpostal` varchar(6) DEFAULT NULL,
+  `telefono` varchar(12) DEFAULT NULL,
+  `funciondesempeña` varchar(30) DEFAULT NULL,
+  `idgrup` int(2) NOT NULL DEFAULT '0',
+  `idusuario` int(4) DEFAULT NULL,
+  PRIMARY KEY (`iddocente`,`idgrup`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Volcar la base de datos para la tabla `docentes`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `evaluacion`
+--
+
+CREATE TABLE IF NOT EXISTS `evaluacion` (
+  `idevalua` int(3) NOT NULL AUTO_INCREMENT,
+  `iddocente` int(4) DEFAULT NULL,
+  `idalumno` int(4) DEFAULT NULL,
+  `fecha` datetime DEFAULT NULL,
+  PRIMARY KEY (`idevalua`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Volcar la base de datos para la tabla `evaluacion`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `grupo`
+--
+
+CREATE TABLE IF NOT EXISTS `grupo` (
+  `idgrup` int(2) NOT NULL AUTO_INCREMENT,
+  `gradogrupo` varchar(6) NOT NULL,
+  PRIMARY KEY (`idgrup`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Volcar la base de datos para la tabla `grupo`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `padres`
+--
+
+CREATE TABLE IF NOT EXISTS `padres` (
+  `idpadres` int(4) NOT NULL AUTO_INCREMENT,
+  `tutor` int(4) DEFAULT NULL,
+  `madre` int(4) DEFAULT NULL,
+  `nombre` varchar(45) DEFAULT NULL,
+  `escolaridad` varchar(120) DEFAULT NULL,
+  `fechanacimiento` date DEFAULT NULL,
+  `e-mail` varchar(40) DEFAULT NULL,
+  `numtelefono` varchar(20) DEFAULT NULL,
+  `idusuario` int(4) DEFAULT NULL,
+  PRIMARY KEY (`idpadres`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Volcar la base de datos para la tabla `padres`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `usuarios`
+--
+
+CREATE TABLE IF NOT EXISTS `usuarios` (
+  `nodecontrol` varchar(6) NOT NULL DEFAULT '',
+  `contraseña` varchar(4) DEFAULT NULL,
+  `tipo` int(4) DEFAULT NULL,
+  PRIMARY KEY (`nodecontrol`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcar la base de datos para la tabla `usuarios`
+--

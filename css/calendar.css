@@ -1,0 +1,181 @@
+/* CSS Document */
+
+
+#calendario {
+	width: 100%;
+	margin: 0px auto;
+	overflow: auto;
+
+	margin-bottom: 60px;
+	margin-left:20px;
+}
+#calendario .barra {
+	margin:5px 10px;
+	overflow:auto;
+	height:40px;
+	
+	
+}
+
+#calendario .barra h4 {
+	float:left;
+
+
+}
+#calendario .nav {
+	margin-right:40px;
+	width:120px;	
+}
+
+#calendario .barra a {
+	width:34px;
+	height:13px;
+	display:block;
+	float:left;
+	margin-top:10px;
+	
+}
+#calendario .barra a.prev {
+	
+	background:url(../img/arrow1.png) no-repeat 0px 0px;
+	margin-right:3px;
+	
+	
+
+}
+
+#calendario .barra a.prev:hover {
+
+	background:url(../img/arrow1.png) no-repeat 0px -14px;
+
+}
+
+
+#calendario .barra a.next {
+
+	background:url(../img/arrow2.png) no-repeat 0px 0px;
+	margin-right:10px;
+	
+
+}
+
+#calendario .barra a.next:hover {
+
+	background:url(../img/arrow2.png) no-repeat 0px -14px;
+
+
+}
+
+
+#calendario .barra  h4 {
+	color:#93C3F4;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:26px;
+	font-weight:normal;
+	
+	
+}
+#calendario div.dia {
+	width: 13%;
+	float: left;
+	display: block;
+}
+#calendario div.dias_nombres div.dia {
+	padding: 2px;
+	text-align: center;
+	border-bottom: #93C3F4 4px solid;
+}
+#calendario div.dias_nombres div.dia h4 {
+	color: #666659;
+	margin: 3px 0px;
+	font-size: 1em;
+	font-weight:normal;
+}
+#calendario div.dias_mes div.dia {
+	height: 95px;
+	
+	margin: 1px;
+	padding:1px;
+	position: relative;
+	text-align: center;
+}
+
+#calendario div.dias_mes div.over {
+	background: #F0F0E1;
+	
+}
+
+#calendario div.dias_mes div.current {
+	background: #93C3F4 !important;
+	
+	
+}
+
+#calendario div.dias_mes div.current a.fecha_number {
+	color:#FFF !important;
+}
+
+#calendario div.dias_mes div.dia:hover {
+	background: rgba(0,102,204,0.4);
+	-webkit-transition: background 1s ease-out;
+}
+#calendario div.dias_mes div.dia h4 {
+	margin: 0px;
+	margin-top: 5px;
+}
+#calendario div.dias_mes div.dia p {
+	font-size: 10px;
+	color:#F0F0E0;
+	
+}
+#calendario div.dias_mes div.alt {
+	background: #ACAC9D;
+	cursor:pointer;
+}
+#calendario div.dias_mes div.dia a.fecha_number {
+	bottom: 5px;
+	right: 5px;
+	position: absolute;
+	display: block;
+	color: #ACAC9D;
+	font-family:Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	font-size:16px;
+}
+
+#calendario div.dias_mes div.over a.fecha_number {
+	color:#ACAC9D;
+	
+}
+#calendario div.dias_mes div.dia a.expand {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+a#next {
+	width: 52px;
+	height: 52px;
+	display: block;
+	background: url(../img/next.png) 0px -58px no-repeat;
+	position: absolute;
+	right: 0px;
+	top: 300px;
+}
+a#next:hover {
+	background: url(../img/next.png) no-repeat;
+}
+a#prev {
+	width: 52px;
+	height: 52px;
+	display: block;
+	left: 0px;
+	background: url(../img/prev.png) 0px -58px no-repeat;
+	position: absolute;
+	top: 300px;
+}
+a#prev:hover {
+	background: url(../img/prev.png) no-repeat;
+}
+#calendario div.dias_mes div.on {
+	background: rgba(0,102,204,0.3);
+}

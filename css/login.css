@@ -1,0 +1,195 @@
+/* CSS Document */
+body {
+	background:#436282 url(../img/fondo/back_pattern_2.png) repeat center  0px;
+	color:#FFF;
+	margin:0px;
+	padding:0px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+}
+
+h1 {
+	font-size:22px;
+	color:#3074B3;
+	
+}
+
+#main {
+	margin:0px auto;
+	width:1000px;
+	overflow:auto;
+	margin-top:100px;
+	
+}
+#login {
+	background:#48678A;
+	padding-top:23px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	 border-radius: 10px;
+		
+-webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 3px 5px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 3px 5px rgba(50, 50, 50, 0.75);
+	
+}
+#login .panel {
+	background:#FFF;
+	overflow:auto;
+	padding:20px 10px;
+	
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+	
+}
+ul.l_menu {
+	margin-left:40px;
+	padding:0px;
+	list-style:none;
+	background-color:#F00;
+
+}
+ul.l_menu li {
+	float:left;
+	margin:10px;
+	
+}
+
+ul.l_menu li a {
+	color:#FFF;
+	text-decoration:none;
+	
+}
+
+#frm_login {
+	float:left;
+	margin-left:10px;
+	
+}
+#frm_login input[type=text]  , 
+#frm_login input[type="password"] {
+	width:280px;
+	padding:8px;
+	border:1px solid #6FA7D1;
+	margin-left:10px;
+
+}
+
+#frm_login input[type=submit] {
+	background:#6FA7D1;
+	
+	background-image: linear-gradient(bottom, rgb(169,203,228) 65%, rgb(111,166,209) 0%, rgb(169,203,228) 83%);
+	background-image: -o-linear-gradient(bottom, rgb(169,203,228) 65%, rgb(111,166,209) 0%, rgb(169,203,228) 83%);
+	background-image: -moz-linear-gradient(bottom, rgb(169,203,228) 65%, rgb(111,166,209) 0%, rgb(169,203,228) 83%);
+	background-image: -webkit-linear-gradient(bottom, rgb(169,203,228) 65%, rgb(111,166,209) 0%, rgb(169,203,228) 83%);
+	background-image: -ms-linear-gradient(bottom, rgb(169,203,228) 65%, rgb(111,166,209) 0%, rgb(169,203,228) 83%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.65, rgb(169,203,228)),
+		color-stop(0, rgb(111,166,209)),
+		color-stop(0.83, rgb(169,203,228))
+	);
+	
+
+		
+	border:none;
+	cursor:pointer;
+	padding:6px 10px;
+	color:#FFF;
+	font-size:16px;
+	float:left;
+	margin-left:80px;
+	margin-top:20px;
+	
+	
+	
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	letter-spacing:2px;
+}
+
+#header {
+	height: 150px;
+	width: 100%;
+	overflow:auto;
+	background: rgba(0,0,0,0.7);
+	min-width: 1024px;
+	border-bottom: 25px solid #00AFC7;
+	-webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.75);
+	 box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.80);
+}
+
+#header .l_menu{
+	
+	float:right;
+	background:#06C;
+	margin-right:150px;
+	height:40px;
+	
+	}
+
+footer {
+	width: 100%;
+	height: 60px;
+	bottom: 0px;
+	position: fixed;
+	background:#24221F url(../img/fondo/office.png);
+
+}
+footer .content {
+	margin:0px auto;
+	width:800px;
+	height:40px;
+	padding:10px;
+	color:#CCC;
+	font-size:14px;
+    position:relative;
+	overflow:hidden;
+}
+footer .content #contacto_empresa {
+	position:absolute;
+	left:10px;
+	top:10px;
+	width:600px;
+}
+footer .content #contacto_empresa p {
+	margin:0px;
+	padding:0px;	
+}
+footer .content #firma {
+	position:absolute;
+	right:10px;
+	top:10px;
+	width:220px;
+}
+footer .content #firma p {
+	font-size:9px;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+}
+#image{
+	width:400px;
+    height:300px;
+    float:left;
+	margin-left:60px
+	}
+	
+#login{
+		
+width: 350px;
+height: 230px;
+float: right;
+margin-right: 10px;
+
+		}
+		

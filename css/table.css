@@ -1,0 +1,101 @@
+/* CSS Document */
+ 
+
+/* TABLE */
+
+table {
+	border-spacing: 0px;
+}
+table thead th {
+	background-color: #333;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 8px 10px;
+	text-align: left;
+	font-size: 14px;
+	color: #87C0ED;
+	letter-spacing: 1px;
+	border-bottom: 4px #87C0ED solid;
+}
+table td {
+	padding: 10px 10px;
+	font-size: 12px;
+	line-height: 18px;
+	vertical-align: middle;
+}
+.tbl_listado {
+	width: 100%;
+	border-bottom: 2px #333333 solid;
+	background-color: #F3F3F3;
+}
+.tbl_listado tbody td {
+	border-bottom: 2px #999999 solid;
+}
+.tbl_listado tbody tr.alt {
+	background-color: #FFF;
+}
+.tbl_listado tbody tr:hover {
+	background-color: #EED179;
+}
+.tbl_listado tbody a.btn1 {
+	display: block;
+	padding: 3px 3px 3px 25px;
+	font-size: 12px;
+	
+	width: 70px;
+	color: #FFF;
+}
+.tbl_listado tbody a.profile {
+	background: #066 url(../img/icons/set3/micro_profile.png) no-repeat 3px 4px;
+}
+
+.tbl_listado tbody a.delete {
+	background: #933 url(../img/icons/set3/micro_delete.png) no-repeat 3px 4px;
+}
+
+
+table.tbl_listado tbody td.user {
+	background: url(../img/icons/set1/mini_user.png) no-repeat 4px center;
+	padding-left: 26px;
+}
+table.tbl_listado tbody td.email {
+	background: url(../img/icons/set1/mini_mail.png) no-repeat 4px center;
+	padding-left: 26px;
+}
+table.tbl_listado tbody td.empresa {
+	background: url(../img/icons/set1/mini_empresa.png) no-repeat 4px center;
+	padding-left: 26px;
+}
+table.tbl_listado tbody td.phone {
+	background: url(../img/icons/set1/mini_phone.png) no-repeat 4px center;
+	padding-left: 28px;
+}
+/* paginado */
+
+ul.table_page {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	height: 25px;
+	
+
+}
+ul.table_page li {
+	float: left;
+	margin: 40px 1px;
+}
+ul.table_page li a {
+	background-color: #666;
+	color: #CCC;
+	display: block;
+	font-size: 12px;
+	padding: 5px 6px;
+}
+ul.table_page li a.alt {
+	background-color: #333;
+	color: #FFFFFF;
+}
+ul.table_page li a:hover {
+	background: #99CC33;
+	color: #333333;
+}

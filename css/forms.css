@@ -1,0 +1,206 @@
+/* CSS Document */
+form.style1 {
+	margin-top: 20px;
+	border-left: 2px #CCCCCC solid;
+	padding-left: 10px;
+}
+form.style1 table td {
+	padding: 4px 2px;
+	vertical-align: middle;
+}
+form.style1 tr:hover {
+	background: rgba(0,128,192,0.1);
+}
+form.style1 input[type=text], form.style1 input[type=email], form.style1 input[type=date], form.style1 input[type=number], form.style1 input[type=password], form.style1 textarea, form.style1 select {
+	padding: 4px;
+	border: 1px #CCCCCC solid;
+}
+form.style1 input[type=number] {
+	width: 50px;
+}
+form.style1 label {
+	color: #47668A;
+	font-weight: bold;
+}
+input[type=submit] {
+	background: #A5DD00;
+	padding: 5px 15px;
+	cursor: pointer;
+	font-weight: bold;
+	color: #353526;
+	border: none;
+	-webkit-border-radius: 5px;
+}
+a.link1 {
+	display: block;
+	padding: 5px 10px;
+	font-size: 12px;
+	background-color: #46668A;
+	width: 100px;
+	color: white;
+}
+a.link2 {
+	display: block;
+	padding: 5px 10px;
+	font-size: 12px;
+	background-color: #C63;
+	width: 100px;
+	color: white;
+}
+
+
+a.link3 {
+	display: block;
+	padding: 5px 10px;
+	font-size: 12px;
+	background-color:#C63;
+	width: 120px;
+	color: white;
+}
+
+a.link4 {
+	display: block;
+	padding: 5px 10px;
+	font-size: 12px;
+	background-color:#699 ;
+	width: 120px;
+	color: white;
+}
+#btn_nuevo {
+	display: block;
+	padding: 5px 10px;
+	font-size: 12px;
+	background-color:#699;
+	width: 100px;
+	color:white;
+}
+img.miss {
+	padding: 4px;
+	border: 1px solid #EFEFEF;
+}
+#nav {
+	margin-top: 20px;
+	position: absolute;
+	width:410px;
+	top: -20px;
+	right: 0px;
+	background-color: #F4F4F4;
+	border-bottom: 2px solid #09F;
+}
+
+#nav {
+	margin-top: 20px;
+	position: absolute;
+	width:410px;
+	top: -20px;
+	right: 0px;
+	background-color: #F4F4F4;
+	border-bottom: 2px solid #09F;
+}
+#nav ul {
+	list-style: none;
+	overflow: auto;
+	margin-left: 1px;
+}
+#nav ul li a {
+	background-color: #48678A;
+	color: #FFF;
+	float: left;
+	display: block;
+	padding: 5px;
+	margin: 0px 1px;
+	font-size: 12px;
+}
+#nav ul li a.alt {
+	background-color: #09F;
+}
+
+
+
+#nav2 {
+	margin-top: 20px;
+	position: absolute;
+	width:410px;
+	top: -20px;
+	right: 0px;
+	background-color: #F4F4F4;
+	border-bottom: 2px solid #09F;
+}
+
+#nav2 {
+	margin-top: 20px;
+	position: absolute;
+	width:440px;
+	top: -20px;
+	right: 0px;
+	background-color: #F4F4F4;
+	border-bottom: 2px solid #09F;
+}
+#nav2 ul {
+	list-style: none;
+	overflow: auto;
+	margin-left: 1px;
+}
+#nav2 ul li a {
+	background-color: #48678A;
+	color: #FFF;
+	float: left;
+	display: block;
+	padding: 5px;
+	margin: 0px 1px;
+	font-size: 12px;
+}
+#nav2 ul li a.alt {
+	background-color: #09F;
+}
+
+
+#nav3 {
+	margin-top: 20px;
+	position: absolute;
+	width:200px;
+	top: -20px;
+	right: 20px;
+	background-color: #F4F4F4;
+	border-bottom: 2px solid #09F;
+}
+
+#nav3 {
+	margin-top: 20px;
+	position: absolute;
+	width:250px;
+	top: -20px;
+	right: 0px;
+	background-color: #F4F4F4;
+	border-bottom: 2px solid #09F;
+}
+#nav3 ul {
+	list-style: none;
+	overflow: auto;
+	margin-left: 0px;
+}
+#nav3 ul li a {
+	background-color: #48678A;
+	color: #FFF;
+	float: left;
+	display: block;
+	padding: 5px;
+	margin: 0px 1px;
+	font-size: 12px;
+}
+#nav3 ul li a.alt {
+	background-color: #09F;
+}
+
+
+
+/* Style 2 */ 
+form.style2 input[type=text], form.style2 input[type=email], form.style2 input[type=date], form.style2 input[type=number], form.style2 input[type=password], form.style2 textarea, form.style2 select {
+	padding: 4px;
+	border: 1px #CCCCCC solid;
+}
+
+form.style2 label {
+	color: #47668A;
+	font-weight: bold;
+}

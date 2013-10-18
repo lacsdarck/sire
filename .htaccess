@@ -1,0 +1,26 @@
+RewriteEngine on
+
+
+# modulo usuarios...
+RewriteRule ^index.html$ /index.php
+RewriteRule ^usuario-consulta.html$ /index.php?app=0&opcion=0
+RewriteRule ^eliminar-usuario-([0-9]+).html$ ajax/ajax_usuario.php?opcion=5&id_usuario=$1
+
+
+# modulo clientes ... 
+
+RewriteRule ^cliente-nuevo.html$ /index.php?app=4&opcion=1
+RewriteRule ^cliente-consulta.html$ /index.php?app=4&opcion=2
+RewriteRule ^auto-nuevo.html$ /index.php?app=4&opcion=3
+RewriteRule ^auto-consulta.html$ /index.php?app=4&opcion=4
+RewriteRule ^cliente-([0-9]+).html$ /index.php?app=4&opcion=5&id_cliente=$1
+RewriteRule ^vehiculo-([0-9]+).html$ /index.php?app=4&opcion=6&id_vehiculo=$1
+RewriteRule ^eliminar-cliente-([0-9]+).html$ ajax/ajax_cliente.php?opcion=5&id_cliente=$1
+RewriteRule ^eliminar-auto-([0-9]+).html$ ajax/ajax_vehiculo.php?opcion=5&id_vehiculo=$1
+RewriteRule ^aseguradora-consulta.html$ /index.php?app=4&opcion=7
+RewriteRule ^eliminar-aseguradora-([0-9]+).html$ ajax/ajax_aseguradora.php?opcion=5&id_aseguradora=$1
+
+#sesion 
+RewriteRule ^login.html$ /ajax/login.php
+RewriteRule ^logout.html$ /ajax/logout.php
+

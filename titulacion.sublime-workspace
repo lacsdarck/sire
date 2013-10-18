@@ -1,0 +1,457 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"geo",
+				"geoconfig"
+			],
+			[
+				"er",
+				"errores"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"sol",
+				"soltar"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"e",
+				"elemento"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"s",
+				"sans-serif"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"b",
+				"body"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"que",
+				"querySelectorAll"
+			],
+			[
+				"p",
+				"principal"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"hacer",
+				"hacerclic"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"hs",
+				"hsla()"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"bor",
+				"border-box"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"d",
+				"direction"
+			],
+			[
+				"m",
+				"meta	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "portal/login.php",
+			"settings":
+			{
+				"buffer_size": 2483,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 384.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/sire/inc/header.php",
+		"/C/xampp/htdocs/sire/portal/usuarios/index.php",
+		"/C/xampp/htdocs/sire/ajax/ajax_usuario.php",
+		"/C/xampp/htdocs/sire/portal/usuarios/frm/tbl_usuarios.php",
+		"/C/xampp/htdocs/sire/js/obj/obj_usuario.js",
+		"/C/xampp/htdocs/sire/fn/db_conexion.php",
+		"/C/xampp/htdocs/pacifico/ajax/ajax_usuario.php",
+		"/C/xampp/htdocs/prueba/index.php",
+		"/C/xampp/htdocs/prueba/ajax/login.php",
+		"/C/xampp/htdocs/prueba/js/obj/obj_main.js",
+		"/C/xampp/htdocs/prueba/fn/login.php",
+		"/C/xampp/htdocs/prueba/portal/login.php",
+		"/C/xampp/htdocs/prueba/fn/db_conexion.php",
+		"/C/xampp/htdocs/prueba/css/login.css",
+		"/C/xampp/htdocs/prueba/css/main.css",
+		"/C/xampp/htdocs/prueba/inc/header.php",
+		"/C/xampp/htdocs/prueba/js/obj/obj_usuario.js",
+		"/C/xampp/htdocs/prueba/ajax/ajax_usuario.php",
+		"/C/xampp/htdocs/prueba/fn/fn_functions.php",
+		"/C/xampp/htdocs/prueba/fn/upload.php",
+		"/C/xampp/htdocs/prueba/portal/usuarios/frm/tbl_usuarios.php",
+		"/C/xampp/htdocs/prueba/.htaccess",
+		"/C/xampp/htdocs/prueba/ajax/logout.php",
+		"/C/Users/lacsdarck/Documents/sublime text2/SIRE/inc/footer",
+		"/C/xampp/htdocs/pacifico/js/jquery/css/Aristo/Aristo.css",
+		"/C/xampp/htdocs/pacifico/fn/db_conexion.php",
+		"/C/xampp/htdocs/pacifico/index.php",
+		"/C/xampp/htdocs/pacifico/inc/header.php",
+		"/C/xampp/htdocs/pacifico/inc/footer.php",
+		"/C/xampp/htdocs/pacifico/fn/fn_functions.php",
+		"/C/xampp/htdocs/pacifico/js/obj/obj_usuario.js",
+		"/C/xampp/htdocs/sire/portal/login.php",
+		"/C/xampp/htdocs/sire/inc/footer.php",
+		"/C/xampp/htdocs/sire/js/obj/obj_nomina.js",
+		"/C/xampp/htdocs/sire/ajax/ajax_nomina.php",
+		"/C/xampp/htdocs/sire/index.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/Apilocalizador.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/js/geolocation.js",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/css/localizar.css",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/css/dragdropstyle.css",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/js/draparchivos.js",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/draparchivos.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/dragdrop3.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/js/dragdrop3.js",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/js/dragdrop2.js",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/dragdrop2.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/js/dragdrop.js",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/dragdrop.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/index4.html",
+		"/C/Users/lacsdarck/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/lacsdarck/Pictures/desktop.ini",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/css/dragdropstylo.css",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/css/dragdropcss.css",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/videocanvas.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/js/videocv.js",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/js/canvas2.js",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/APIcanvas.html",
+		"/C/Users/lacsdarck/Desktop/as.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/js/canvas.js",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/form5.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/form4.html",
+		"/C/Users/lacsdarck/Desktop/LABORATORIO PARA LA CIUDAD_files/application.js",
+		"/C/Users/lacsdarck/Desktop/LABORATORIO PARA LA CIUDAD_files/jquery.animate-enhanced.min.js",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/formulario3.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/js/formscript.js",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/formulario2.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/formindex.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/indexApis.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/formularios.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/css/formulariostyle.css",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/css/script.css",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/js/scriptApis.js",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/audio.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/PROYECTOS/mejorando/video.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/js/script.js",
+		"/C/Users/lacsdarck/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/css/clave",
+		"/C/Users/lacsdarck/Desktop/modem's",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/css/stylocap3.css",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/css/mi_estilo.css",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/css/cssscrip.css",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/indexcap3.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/index3.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/css/caja.css",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/stylocap3.css",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/index2.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/index1.html",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/mi_estilo.css",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/css/miestioo",
+		"/C/Users/lacsdarck/Documents/sublime text2/practicas/img/excel.png",
+		"/C/xampp/htdocs/prueba/inc/footer.php",
+		"/C/Users/lacsdarck/Documents/RESPALDO ACER UNIDAD D/XROMSYSTEMS/bases de datos/bitcctv_hergol.sql",
+		"/C/Users/lacsdarck/Documents/RESPALDO ACER UNIDAD D/todo proyecto SIRE/my proyecto de titulacion/documentos de benito/REPORTES/Base de Datos/localhost.sql",
+		"/C/Users/lacsdarck/Documents/RESPALDO ACER UNIDAD D/XROMSYSTEMS/CRM-CLOUD/respaldo proyectos/hergol/plantilla.html",
+		"/C/Program Files/nodejs/server/xromcloud.js",
+		"/C/Program Files/nodejs/server/server.js",
+		"/C/xampp/htdocs/sire/README.md",
+		"/C/xampp/htdocs/sire/.project",
+		"/C/Users/lacsdarck/Desktop/sdf.txt",
+		"/C/xampp/htdocs/sire/archivo.txt",
+		"/C/Users/lacsdarck/AppData/Roaming/Sublime Text 2/Packages/User/open_browser.py",
+		"/C/Users/lacsdarck/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/lacsdarck/Documents/sublime text2/secuencia/prueba.html",
+		"/C/Users/lacsdarck/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$response",
+			"ajax/ajax_main.php",
+			"ajax/ajax_main.php?",
+			"ajax/ajax_main.php?opcion=1",
+			"#frm_login",
+			"#form_login",
+			"#formlogin",
+			"CRM",
+			"  \n",
+			"img",
+			"soltar",
+			"id",
+			"saliendo",
+			"destino",
+			"s",
+			"Data",
+			"data",
+			"Data",
+			"data",
+			"Data",
+			"data",
+			"Data",
+			"data",
+			"Data",
+			"data",
+			"Data",
+			"data",
+			"80",
+			"90",
+			"ValidityState",
+			"valid",
+			"Valid",
+			"valid",
+			"Valid",
+			"valid",
+			"Valid",
+			"valid",
+			"invalid",
+			"miedad",
+			"load",
+			"load	",
+			"30px",
+			"54px",
+			"></",
+			"diamonds",
+			"section",
+			"h1",
+			"mark",
+			"  </arricle>\n               <arricle>este es el texto de mi  ",
+			"  ",
+			"> ",
+			"               <arricle> </arricle>\n               <arricle></arricle>\n",
+			"               <",
+			"> ",
+			"></",
+			"plantilla"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "portal/login.php",
+					"settings":
+					{
+						"buffer_size": 2483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1237,
+								1211
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true
+}

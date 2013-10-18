@@ -1,0 +1,12 @@
+<?php
+#Conexion a  la base de datos.
+$host="localhost";
+$username="root";
+$password="root";
+$db_name="guarderia";
+
+ 
+  mysql_connect("$host", "$username", "$password")or die("cannot connect server "); 
+  mysql_select_db("$db_name")or die("cannot select DB");
+
+?>
